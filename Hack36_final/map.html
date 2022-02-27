@@ -1,0 +1,26 @@
+
+    <div class="holder" id="contact">
+        <div class="element">
+            <input type="submit" name="get_location" class="button" id="get_location" value="Get My Location">
+        </div>
+
+        <div class="element">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30710983.209769644!2d64.45235976587381!3d20.01273993518969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map%20world!5e0!3m2!1sen!2sin!4v1645856932426!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="google_map"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var c=function(pos){
+            var lat =pos.coords.latitude,
+                long=pos.coords.longtitude,
+                coords=lat +', '+long;
+          document.getElementById('google_map').setAttribute('src', 'https://maps.google.com?q='+ coords +'&z=60&output=embed');
+  
+        }
+        document.getElementById('get_location').onclick=function(){
+            navigator.geolocation.getCurrentPosition(c);
+            return false;
+        }
+    </script>

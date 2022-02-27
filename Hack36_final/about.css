@@ -1,0 +1,38 @@
+section .about{
+    height: 500px;
+    width: 500px;
+    
+}
+
+#demo {  
+  margin-top: 50px;
+  margin-left:50px;
+  box-shadow: 2px 2px 2px 2px #cbd0d1;
+ /* padding-top: 100px;
+ padding-left:25px; */
+}
+#demo{
+  /* border:10px solid #23afeb; */
+  border:10px solid #000;
+  border-radius:20px;
+  height:500px;
+  width: 700px;
+  /* border-left:2px solid #f8f8ff;
+  border-right:2px solid #f8f8ff; */
+}
+#aishal{
+  font-size: 40px;
+  text-align: center;
+  color:#23afeb;
+}
+#shalu{
+  margin:50px;
+}
+.photoc{
+  width: 100%;
+  max-height:100%!important;
+ 
+}
+#he1,#he2,#he3{
+  margin-left: 30px;
+}
