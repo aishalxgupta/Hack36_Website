@@ -23,4 +23,4 @@ Team Members:
 * Kaushik Vishwakarma
 * Mayank Mehta
 
-**Best of Care, At Your Home. :)**
+**Best of Care, At Your Home!  :-)**
